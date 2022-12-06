@@ -1,1 +1,11 @@
-cpelx
+*************************************************Cplex command list*****************************************************
+
+#
+cplex.setOut(null);
+不打印cplex求解信息;
+#
+
+#
+cplex.setParam(IloCplex.Param.TimeLimit, 1000);
+设定求解时间为1000s
+#
